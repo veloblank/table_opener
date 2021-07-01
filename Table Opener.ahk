@@ -107,6 +107,7 @@ BuildGui:
   Gui, add, Checkbox, yp xp+80 Check3 Checked-1 vRegister
   Gui, add, text, yp xp+30, Reg. next if full?
   Gui, add, Checkbox, yp xp+80 VAutoifFull
+
   Gui, add, text,xp-190 yp+30 , Register every (sec):
   Gui, add, DropDownList, w50 yp-5 xp+140 vInterval1, %ddlist2%
   Gui, add, text, xp-140 yp+30, No of SNG:s to keep open:
